@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+}
+
+.calculator {
+    width: 300px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#display {
+    width: 90%;
+    height: 50px;
+    text-align: right;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 22px;
+    border: none;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    color: #333;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.number-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.number-btn:hover {
+    background-color: #66BB6A;
+}
+
+.operator-btn {
+    background-color: #FF5722;
+    color: white;
+}
+
+.operator-btn:hover {
+    background-color: #FF7043;
+}
+
+.function-btn {
+    background-color: #FFC107;
+    color: white;
+}
+
+.function-btn:hover {
+    background-color: #FFD54F;
+}
+
+.equals-btn {
+    background-color: #03A9F4;
+    color: white;
+}
+
+.equals-btn:hover {
+    background-color: #29B6F6;
+}
+
+.sci-btn {
+    background-color: #9C27B0;
+    color: white;
+}
+
+.sci-btn:hover {
+    background-color: #AB47BC;
+}
+
+.scientific-buttons {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
